@@ -1,3 +1,7 @@
+my personal eddits of vimsnips
+
+
+************************************************************************************
 This directory contains the snippets for UltiSnips.
 https://github.com/sirver/ultisnips
 
@@ -15,3 +19,4 @@ UltiSnips has seen contributions by many individuals. Those contributions have
 been merged into this collection seamlessly and without further comments.
 
 -- vim:ft=rst:nospell:
+****************************************************************************************

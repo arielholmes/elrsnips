@@ -1,0 +1,24 @@
+priority -50
+
+extends sh
+
+priority -49
+
+snippet #! "shebang" b
+#!/bin/zsh
+
+endsnippet
+
+snippet !env "#!/usr/bin/env (!env)" b
+#!/usr/bin/env zsh
+
+endsnippet
+
+snippet vcheck "status check"
+if [[  condition  ]]; then
+	print yes
+	else print no
+fi
+endsnippet
+
+# vim:ft=snippets:

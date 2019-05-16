@@ -170,3 +170,7 @@ int main()
 {
 }
 endsnippet
+
+snippet er_print "print line"
+cout << "";
+endsnippet

@@ -139,6 +139,7 @@ POW(int a, int b)
 endsnippet
 
 snippet main2var "Simple two variable entry and function call"
+
 /******************************************************************************
 * Function:         int main
 * Description:      
@@ -173,4 +174,34 @@ endsnippet
 
 snippet er_print "print line"
 cout << "$1";
+endsnippet
+
+snippet er_for_loop "for loop skeleton"
+for (int $1 = $2; $1 >= 1; $1--)
+{
+$3
+}
+endsnippet
+
+snippet er_while "while routine"
+while ($1)
+{
+$2
+}
+endsnippet
+
+snippet er_function "function skeleton"
+int $1 ($2)
+{
+int $3 = $4;
+$5;
+return $6
+}
+endsnippet
+
+snippet er_if "if routine"
+if ($1)
+{
+$2;
+}
 endsnippet
